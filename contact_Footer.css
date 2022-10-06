@@ -1,0 +1,123 @@
+.contact_footer{
+    width: 100%;
+    height: 10%;
+    background-color: #69ab8a;
+    margin-top: -0.5px;
+}
+
+.contact_footer_inner{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.email,
+.mobile,
+.office_phone,
+.office_location{
+    width: 25%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.email p{margin-left: 14px;}
+.mobile p{margin-left: 30px;}
+.office_phone p{margin-left: 20px;}
+.office_location p{
+    margin-left: 30px;
+}
+
+
+
+#adress{
+    font-size: 80% !important;
+}
+
+.email_logo{
+    width: 40px;
+}
+
+.mobile_logo{
+    height: 35px;
+}
+
+.office_phone_logo{
+    height: 35px;
+}
+
+.office_location_logo{
+    height: 35px;
+}
+
+.email_txt,
+.mobile_txt,
+.office_phone_txt,
+.office_location_txt{
+    display: flex;
+    flex-direction: column;
+    font-family: georgianf;
+    color: white;
+}
+
+@media (max-width:850px) {
+    .contact_footer{
+        width: 100%;
+        height: fit-content;
+        padding: 25px 0 25px 0;
+        
+    }
+
+    .contact_footer_inner{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+.email,
+.mobile,
+.office_phone,
+.office_location{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+}
+
+@media (orientation: landscape) and (max-width:850px){
+    .contact_footer_inner{
+        width: 90%;
+        flex-direction: unset;
+        font-size: 13px !important;
+    }
+
+    .email_logo{
+        width: 30px;
+    }
+    
+    .mobile_logo{
+        height: 25px;
+    }
+    
+    .office_phone_logo{
+        height: 25px;
+    }
+    
+    .office_location_logo{
+        height: 25px;
+    }
+
+    .email p{margin-left: 10px;}
+.mobile p{margin-left: 10px;}
+.office_phone p{margin-left: 10px;}
+.office_location p{
+    margin-left: 10px;
+}
+}

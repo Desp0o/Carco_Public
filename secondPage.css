@@ -1,0 +1,331 @@
+.second_page{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 10%;
+}
+
+.secon_page_inner{
+    width: 90%;
+    height: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.secon_page_inner_left{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.secon_page_inner_header{
+    font-size: 24px !important;
+    margin: auto;
+    word-spacing: 15px;
+    font-family: georgianf;
+}
+
+.row1{
+    width: 100%;
+    height: 40%;
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.row1_block{
+    width: 40%;
+    height: 90%;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgb(138, 136, 136);
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.row1_block:hover{
+    background-color: #69AB8A;
+    color: white;
+}
+
+/****** ტრანსპორტირების ბლოკი *****/
+.transportationBlock_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.transportationBlock_logo img{
+    width: 20%;
+    transition: all 0.4s ease;
+}
+
+.transportationBlock_txt{
+    font-family: georgianf;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/****** კონტეინერის ბლოკი *****/
+.find_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.find_container_img{
+    width: 20%;
+    transition: all 0.4s ease;
+}
+
+.find_container_txt{
+    font-family: georgianf;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/****** კონტაქტის ბლოკი *****/
+.contact_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contact_img{
+    width: 20%;
+    transition: all 0.4s ease;
+}
+
+.contact_txt{
+    font-family: georgianf;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/****** გუნდის ბლოკი *****/
+.team_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.team_img{
+    width: 20%;
+    transition: all 0.4s ease;
+}
+
+.team_txt{
+    font-family: georgianf;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%; 
+}
+
+
+
+
+/******* მარჯვენა მხარე *******/
+
+.secon_page_inner_right{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.secon_page_inner_right_inner{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.secon_page_inner_right_inner_header{
+    margin: auto;
+    font-family: georgianf;
+}
+
+.right_row{
+    width: 100%;
+    height: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.right_row_img img{
+    width: 25px;
+}
+
+.right_row_txt{
+    font-family: georgianf;
+    margin-left: 2%;
+}
+
+.underline{
+    width: 90%;
+    height: 1px;
+    background-color: #69AB8A;
+    border-radius: 10px;
+}
+
+.number_sec{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.number_sec_img{
+    width: 15px;
+}
+
+.number_sec_txt{
+    font-family: georgianf;
+    font-size: 90%;
+    margin-left: 2%;
+}
+
+@media (max-width:850px) {
+    .second_page{
+        width: 100%;
+        height: 160%;
+        box-sizing: border-box;
+        padding-top: 10%;
+    }
+
+    .secon_page_inner{
+        flex-direction: column;
+    }
+    .secon_page_inner_left{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .row1_block:hover{
+        background-color:inherit;
+        color: inherit;
+    }
+
+    .row1{
+        width: 100%;
+        height: 50%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .row1_block{
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .secon_page_inner_right{
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+    }
+
+    .secon_page_inner_right_inner{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        background-color: #F7F7F7;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+    }
+
+    .secon_page_inner_header{
+        font-size: 20px !important;
+    }
+
+    .block_logo{
+        width: 35px !important;
+    }
+}
+
+
+@media (orientation: landscape) and (max-width:850px){
+    .second_page{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding-top: 10%;
+    }
+    .secon_page_inner{
+        flex-direction:unset;
+    }
+
+    .secon_page_inner_left{
+       margin-top: 30px;
+    }
+    .secon_page_inner_right_inner_header,
+    .secon_page_inner_header{
+        font-size: 18px;
+    }
+
+    .row1{
+        flex-direction: unset;
+        gap: 15px;
+    }
+    .row1_block{
+        height: 80%;
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .block_logo{
+        width: 40px !important;
+    }
+
+    .all_Block_TXT{
+        font-size: 13px;
+    }
+
+    .secon_page_inner_right_inner{
+        font-size: 13px !important;
+    }
+        
+}

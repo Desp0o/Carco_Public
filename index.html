@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tornike Despotashvili">
+    <meta name="build by" content="Tornike Despotashvili">
+    <meta name="author contact" content="tornike.despotashvili@itdc.ge">
+    <meta property="og:image" content="./images/logo.png"/>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./calculatorStyle.css">
+    <link rel="stylesheet" href="./secondPage.css">
+    <link rel="stylesheet" href="./thirdPage.css">
+    <link rel="stylesheet" href="./contact_Footer.css">
+    <title>CarCo</title>
+</head>
+<body oncontextmenu="return false">
+
+    <div class="overlay"></div>
+       
+    <div class="contact_buttons">
+        <div class="contact_buttons_inner">
+            <img src="./images/whatsupp.png" alt="" class="whatsup">
+            <img src="./images/viber.png" alt="" class="viber">
+            <a href="https://www.facebook.com/Carco.ge" target="_blank"><img src="./images/facebook.png" alt="" class="facebook"></a>
+        </div>
+    </div>
+
+
+    <!-- ნავიგაცია -->
+    <header>
+        <div class="header_content">
+            <div class="navbar_logo">
+                <img src="./images/logo.png" alt="" class="navbar_logo_img">
+            </div>
+
+            <div class="navbar_content">
+                <a class="navbar_links active" href="./index.html">მთავარი</a>
+                <a class="navbar_links" href="./aboutUs.html">ჩვენ შესახებ</a>
+                <a class="navbar_links" href="./calculator.html">კალკულაცია</a>
+                <a class="navbar_links" href="https://www.searates.com/container/tracking/" target="_blank">კონტეინერის შემოწმება</a>
+                <a class="navbar_links" href="./contact.html">კონტაქტი</a>
+                <div class="language_menu">
+                    <a href="./ENG/ENG_MAIN_PAGE.html"><img src="./images/united-kingdom.png" alt="ena1" id="language1"></a>
+                    <a href="./RUS/RUS_main.html"><img src="./images/russia.png" alt="ena2" id="language2"></a>
+                </div>
+            </div>
+
+            <div class="burger_menu">
+                <img class="burger_menu_logo" src="./images/burger_menu.png" alt="">
+                <img class="burger_menu_logo1" src="./images/birger_menu_X.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- ბურგერმენიუ -->
+    <div class="burger_bar">
+        <div class="burger_content">
+            <a class="burger_links" id="bml1" href="./index.html">მთავარი</a>
+            <a class="burger_links" id="bml2" href="./aboutUs.html">ჩვენ შესახებ</a>
+            <a class="burger_links" id="bml3" href="./calculator.html">კალკულაცია</a>
+            <a class="burger_links" id="bml4" href="https://www.searates.com/container/tracking/" target="_blank">კონტეინერის შემოწმება</a>
+            <a class="burger_links" id="bml5" href="./contact.html">კონტაქტი</a>
+            <div class="language_menu">
+                <a href="./ENG/ENG_MAIN_PAGE.html"><img src="./images/united-kingdom.png" alt="ena1" id="language1"></a>
+                <a href="./RUS/RUS_main.html"><img src="./images/russia.png" alt="ena2" id="language2"></a>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- სლაიდერი -->
+    <div class="carousel">
+        <div class="slider">
+            <div class="slide active_slider">
+                <img class="slider_img " src="./images/slider1.jpg" alt="">
+                <h3 class="slider_txt " id="firstsliderTXT">ჩამოიყვანე ავტომობილი ამერიკიდან <br> გადაზიდვის ყველაზე დაბალი ტარიფით</h3>
+            </div>
+    
+            <div class="slide">
+                <img class="slider_img" src="./images/slide2.jpg" alt="">
+                <h3 class="slider_txt fix_car_txt">ჩვენი გუნდი გაგიწევთ კონსულტაციას <br> ავტომობილის  სავარაუდო შეკეთების ხარჯებთან დაკავშირებით</h3>
+            </div>
+
+            <div class="slide">
+                <img class="slider_img" src="./images/electro.jpg" alt="">
+                <h3 class="slider_txt">იზრუნე ეკოლოგიაზე და <br>მართე ელექტრო ავტომობილი</h3>
+            </div>
+
+            <div class="slide">
+                <img class="slider_img"  src="./images/axali.jpg" alt="">
+                <h3 class="slider_txt" id="slide4">ჩვენი პარტნიორი გადამზიდავები</h3>
+            </div>
+        </div>
+
+        <div id="left_arrow"> > </div>
+        <div id="rigt_arrow"> > </div>
+    </div>
+
+    <!-- მეორე გვერდი -->
+    <div class="second_page">
+        <div class="secon_page_inner">
+            <!-- მარცხენა მხარე მეორე გევრდზე -->
+            <div class="secon_page_inner_left">
+                <h1 class="secon_page_inner_header">ქარკო  ავტოიმპორტი</h1>
+                <div class="row1">
+                    <!-- ტრანსპორტაციის ბლოკი -->
+                    <div class="row1_block" id="transportationBlock">
+                        <div class="transportationBlock_logo">
+                            <img class="transportationBlock_logo_img block_logo" src="./images/transportation_logo.png" alt="">
+                        </div>
+                        <div class="transportationBlock_txt all_Block_TXT">
+                            <p>ტრანსპორტირების კალკულატორი</p>
+                        </div>
+                    </div>
+                    <!-- კონტეინერის ბლოკი -->
+                    <div class="row1_block" id="findContainer">
+                        <div class="find_container">
+                            <img class="find_container_img block_logo" src="./images/search_icon.png" alt="">
+                        </div>
+                        <div class="find_container_txt all_Block_TXT">
+                            <p>კონტეინერის ძიება</p>
+                        </div>
+                    </div>
+                </div>
+                    <!-- კონტაქტის ბლოკი -->
+                <div class="row1">
+                    <div class="row1_block" id="contactBlock">
+                        <div class="contact_block" >
+                            <img class="contact_img block_logo" src="./images/contact_logo.png" alt="">
+                        </div>
+                        <div class="contact_txt all_Block_TXT">
+                            <p>კონტაქტი</p>
+                        </div>
+                    </div>
+                    <!-- გუნდის ბლოკი -->
+                    <div class="row1_block" id="teamBlock">
+                        <div class="team_block" >
+                            <img class="team_img block_logo" src="./images/team_logo.png" alt="">
+                        </div>
+                        <div class="team_txt all_Block_TXT">
+                            <p>ჩვენ შესახებ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- მარჯვნეა მხარე მეორე გვერდზე -->
+            <div class="secon_page_inner_right">
+
+                <div class="secon_page_inner_right_inner">
+                    <!-- სათაური -->
+                    <h2 class="secon_page_inner_right_inner_header">რაში გეხმარებით?</h2>
+
+                    <div class="right_row">
+                        <div class="right_row_img"><img src="./images/mark.png" alt=""></div>
+                        <p class="right_row_txt">უფასო კონსულტაცია</p>
+                    </div>
+
+                    <div class="right_row">
+                        <div class="right_row_img"><img src="./images/mark.png" alt=""></div>
+                        <p class="right_row_txt">ავტომობილის შერჩევა</p>
+                    </div>
+
+                    <div class="right_row">
+                        <div class="right_row_img"><img src="./images/mark.png" alt=""></div>
+                        <p class="right_row_txt"> ავტომობილის  შემოწმება</p>
+                    </div>
+
+                    <div class="right_row">
+                        <div class="right_row_img"><img src="./images/mark.png" alt=""></div>
+                        <p class="right_row_txt">ხარჯების კალკულაცია</p>
+                    </div>
+
+                    <div class="right_row">
+                        <div class="right_row_img"><img src="./images/mark.png" alt=""></div>
+                        <p class="right_row_txt"> აუქციონში მონაწილეობა</p>
+                    </div>
+
+                    <div class="right_row">
+                        <div class="right_row_img"><img src="./images/mark.png" alt=""></div>
+                        <p class="right_row_txt"> ყიდვა</p>
+                    </div>
+
+                    <div class="right_row">
+                        <div class="right_row_img"><img src="./images/mark.png" alt=""></div>
+                        <p class="right_row_txt"> საბუთების მომზადება</p>
+                    </div>
+
+                    <div class="right_row">
+                        <div class="right_row_img"><img src="./images/mark.png" alt=""></div>
+                        <p class="right_row_txt"> დაზღვევა</p>
+                    </div>
+
+                    <div class="right_row">
+                        <div class="right_row_img"><img src="./images/mark.png" alt=""></div>
+                        <p class="right_row_txt"> ტრანსპორტირება</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+
+
+
+    <!-- მესამე გვერდი -->
+    <div class="third_page">
+        <h2 id="thirdHeader">რატომ ჩვენ?</h2>
+        <img src="./images/thirdBG.jpg" alt="" class="tird_BG">
+        <div class="third_page_inner">
+            
+            <div class="third_page_column" id="col1">
+                <div class="column_block">
+                    <div class="block_up"><img src="./images/truck_main.png" alt=""></div>
+                    <div class="block_down"><p>გადაზიდვის სისწრაფე</p></div>
+                </div>
+                <div class="column_block">
+                    <div class="block_up"><img src="./images/location_main.png" alt=""></div>
+                    <div class="block_down"><p>წვდომა ლოკაციებზე</p></div>
+                </div>
+            </div>
+            
+            <div class="third_page_column" id="col2">
+                <div class="column_block">
+                    <div class="block_up"><img src="./images/service.png" alt=""></div>
+                    <div class="block_down"><p>მომსახურების მაღალი ხარისხი</p></div>
+                </div>
+                <div class="column_block">
+                    <div class="block_up"><img src="./images/team_logo.png" alt=""></div>
+                    <div class="block_down" id="kvalificiuri">კვალიფიციური თანამშრომლები</div>
+                </div>
+            </div>
+
+            <div class="third_page_column" id="col3">
+                <div class="column_block">
+                    <div class="block_up"><img src="./images/documentation.png" alt=""></div>
+                    <div class="block_down">დოკუმენტაციის დამზადება</div>
+                </div>
+                <div class="column_block">
+                    <div class="block_up"><img src="./images/price_main.png" alt=""></div>
+                    <div class="block_down">საუკეთესო ფასი</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contact_footer">
+
+        <div class="contact_footer_inner">
+            <!-- ელფოსტა -->
+                <div class="email">
+                    <img src="./images/email.png" alt="" class="email_logo">
+                    <div class="email_txt">
+                        <p>ელ.ფოსტა:</p>
+                        <p>info@Carco.Ge</p>
+                    </div>
+                </div>
+
+            <!-- მობილური -->
+            <div class="mobile">
+                <img src="./images/mobile.png" alt="" class="mobile_logo">
+                <div class="mobile_txt">
+                    <p>მობილური:</p>
+                    <p>577444987</p>
+                </div>
+            </div>
+
+            <!-- ტელეფონი -->
+            <div class="office_phone">
+                <img src="./images/office_phone.png" alt="" class="office_phone_logo">
+                <div class="office_phone_txt">
+                    <p>ოფისი:</p>
+                    <p>557330744</p></div>
+            </div>
+
+            <!-- მისამართი -->
+            <div class="office_location">
+                <img src="./images/location_footer.png" alt="" class="office_location_logo">
+                <div class="office_location_txt">
+                    <p>მისამართი:</p>
+                    <p id="adress">თბილისი, ი.ჭავჭავაძის 66</p></div>
+                </div>
+            </div>
+        </div>
+
+    
+
+
+        <script src="./KeyPrevent.js"></script>
+        <script src="./languageJS.js"></script>
+        <script src="./slideer.js"></script>
+        <script src="./forLinks.js"></script>
+</body>
+</html>
