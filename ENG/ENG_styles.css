@@ -1,0 +1,17 @@
+@font-face {
+    font-family: popins12;
+    src: url(./Poppins-Regular.ttf);
+}
+
+body,
+.navbar_links,
+.burger_links,
+.calculator,
+.contact_footer_inner,
+.slider_txt,
+.secon_page_inner,
+.row1_block,
+.about_us_inner{
+    font-family: popins12 !important;
+}
+
