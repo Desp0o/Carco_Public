@@ -517,3 +517,7 @@ input:checked[type="checkbox"]:before{
     left: 18px;
     background-color: #1C5343;
 }
+
+.topge{
+    display: none !important;
+}
